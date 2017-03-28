@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/config/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/hot.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/near.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/stroll.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/zhibo.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/router/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/styles/app.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/styles/dist/index.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/styles/usage/stroll.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/vuex/getters.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../travel/src/App.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../travel/src/styles/app.scss" charset="UTF-8" />
+  </component>
+</project>

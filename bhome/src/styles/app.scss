@@ -1,7 +1,9 @@
 @import "./styles/lib/core/reset";
-@import "./styles/dist/index";
 @import "./styles/dist/common";
 @import "./styles/swiper.min.css";
+@import "./styles/dist/index";
+@import "./styles/usage/stroll";
+
  html,body{
  	width: 100%;
  	height: 100%;

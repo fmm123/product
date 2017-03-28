@@ -1,6 +1,8 @@
-const getInd=state=>state.ind
+const getInd=state=>state.ind;
+const getCount=state=>state.count;
 export {
-	getInd
+	getInd,
+  getCount
 }
-	
+
 

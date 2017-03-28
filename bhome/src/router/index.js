@@ -6,31 +6,19 @@ import myself from '@/components/myself'
 import order from '@/components/order'
 import diary from '@/components/diary'
 import stroll from '@/components/stroll'
-import guide from '@/components/guide'
-import main from '@/components/main'
-import login from '@/components/login'
-Vue.use(Router)
+import near from '@/components/near'
+import zhibo from '@/components/zhibo'
+import hot from '@/components/hot'
+
+Vue.use(Router);
+
 export default new Router({
   routes: [
-     {
-        path:"/",
-        name:"guide",
-        component:guide
-    },
     {
-        path:"/main",
-        name:"main",
-        component:main
-    },
-    {
-        path:"/login",
-        name:"login",
-        component:login
-    },
-     {
-        path: '/index',
-        name: 'index',
-        component: index,
+      path: '/',
+      name: 'index',
+      component: index,
+      redirect:'/index/home',
       	children:[
     		{
     			path:"/index/home",
@@ -45,7 +33,25 @@ export default new Router({
     		{
     			path:"/index/stroll",
     			name:"stroll",
-    			component:stroll
+    			component:stroll,
+          redirect:'/index/stroll/near',
+          children:[
+            {
+              path:'/index/stroll/near',
+              name:"near",
+              component:near
+            },
+            {
+              path:'/index/stroll/zhibo',
+              name:"zhibo",
+              component:zhibo
+            },
+            {
+              path:'/index/stroll/hot',
+              name:"hot",
+              component:hot
+            }
+          ]
     		},
     		{
     			path:"/index/order",

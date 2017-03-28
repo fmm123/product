@@ -1,8 +1,8 @@
 <template>
   <div class="swiper-container">
     <div class="swiper-wrapper">
-       	<div class="swiper-slide" v-for="(item,index) in pic"  ref='mark'>
-		       	<router-link to='/index/home' v-if="index==3"><img :src='item.img'></router-link>
+       	<div class="swiper-slide" v-for="(item,index) in pic">
+		       	<router-link to='/index/home' v-if="index==4"><img :src='item.img'></router-link>
 	    	 	<img :src='item.img' v-else>
 	       	</div>
        </div>
