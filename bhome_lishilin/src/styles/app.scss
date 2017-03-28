@@ -1,0 +1,19 @@
+@import "./styles/lib/core/reset";
+@import "./dist/index";
+@import "./dist/common";
+@import "./styles/swiper.min.css";
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  @include flexbox;
+  @include flex-direction(column);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
