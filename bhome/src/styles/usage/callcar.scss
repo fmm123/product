@@ -1,0 +1,115 @@
+.t-callcar{
+	display:-webkit-flex;
+	flex-direction:column;
+	width: 100%;
+	height: 100%;
+	header{
+		width: 100%;
+		height: 44px;
+		background: #17b0b8;
+			i{
+				color:#fff;
+				line-height:60px;
+				padding:10px 17px;
+				margin-top: 5px;
+			}
+			h2{
+				color: #fff;
+				font-size: 16px;
+				text-align:center;
+			    margin-top: -58px;
+				}
+			}
+	.t-choice{
+		width:100%;
+		height:44px;
+		border-bottom:1px solid #ddd;
+		.tb{
+		background:#c7c7c7;
+		}
+		li{
+			float:left;
+            width:50%;
+            text-align:center;
+            line-height:44px;
+            i{
+            	margin-left:5px;
+            }
+		}
+	}
+	.t-cont{
+		width:90%;
+        margin-left:5%;
+	}
+    .t-cmessage{
+        ul>li:nth-child(1){
+            margin-top: 22px;
+            width:100%;
+            display:flex;
+        	span{
+        		   background:#fff;
+		           border:1px solid #ccc;
+		           width:48%;
+		           padding:13px 0;
+		           flex:1;
+		           text-align: center;
+		           i{
+		           color:#809198;          
+                  }
+        	}
+        	.map{
+        		margin-right: 15px;
+        	}
+        }
+        ul>li:nth-child(2){
+            margin-top: 22px;
+        		   background:#fff;
+		           border:1px solid #ccc;
+		           padding:13px 38px;
+		           i{
+		           color:#809198;          
+                  }
+        	}
+        ul>li:nth-child(3){
+           margin-top: 22px;
+           height:100%;
+		   background:#fff;
+           border:1px solid #ccc;
+           position:relative;
+           padding:13px 0;
+           padding-left:35px;
+           input{
+           	width:100%;
+           	height:100%;
+           	border:none;
+           color:#809198;          
+              }
+        	}
+        } 
+    .date{
+       color: #44abb0;
+    }
+    .phone{
+    	position:absolute;
+    	left:20px;
+     	margin-top: 5px;
+    }
+    .close{
+    	position:absolute;
+    	right:30px;
+    	bottom:10px; 
+    }
+    .btn{
+        	width: 100%;
+        	height:40px;
+        	margin-top: 20px;
+        	background: #ff9f24;
+        	border:none;
+        	color:#fff;
+        	border-radius: 5px;
+        }
+    .active{
+    	color:#eaeaea;
+    }
+
+}
